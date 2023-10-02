@@ -1,0 +1,54 @@
+html{
+    height: 100%
+}
+
+body{
+    background-color: #737f89;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-content: center;
+    flex-wrap: wrap;
+     
+}
+h1{
+    color: beige;
+    font-style: unset;
+    font-size: 40px;
+}
+
+button{
+    background-color: #7e8c97;
+    border: #000000;
+    border-radius: 12px;
+    color: #cebdbd;
+    padding: 10px 40px;
+    margin: 0px 20px;
+    transition: 0,5;
+
+}
+button:hover{
+    background-color: #737f89;
+    cursor: pointer;
+    transform: scale3d()(6deg);
+}
+
+a{
+    color: #333d46;
+    font-style: unset;
+    margin: 0%;
+    
+    
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+
+
+

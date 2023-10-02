@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principal</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>ATIVIDADES MULTI PÁGINAS</h1>
+   <div>
+        <a href="./html/temperatura.html">Conversões</a><br>
+   </div> 
+    
+   <div class="botao">
+        <button onclick="novaPagina()">Biografia</button><br><br>
+        <button onclick="novaGuia()">Interesses</button>
+   </div>
+   
+</body>
+</html>
+<script>
+    function novaPagina(){
+        window.location.href=("./html/biografia.html")
+    }
+    function novaGuia(){
+        window.open("./html/interesses.html")
+    }
+</script>
